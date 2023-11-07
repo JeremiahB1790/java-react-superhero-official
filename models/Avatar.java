@@ -1,8 +1,11 @@
 package com.martial.law.jeremiah.martiallaw.models;
 
+import jakarta.persistence.Entity;
+
 enum Standing{
     Hero, Villian, Vigilante
 }
+@Entity
 public class Avatar {
     String Firstname;
     String Lastname;
